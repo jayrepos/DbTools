@@ -13,4 +13,5 @@ doctrine:
         dql:
           datetime_functions:
             day_of_week:  DbTools\DayOfWeek
+            time_to_sec:  DbTools\TimeToSec
 ```
