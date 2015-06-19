@@ -23,6 +23,6 @@ class DayOfWeek extends FunctionNode {
     {
         return 'DAYOFWEEK(' .
             $this->dateExpression->dispatch($sqlWalker) . 
-        ')'; // (7)
+        ')';
     }
 }
